@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bfdd8422f55a24f84514ef1ae372c6, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  startingCredits: 1000
+  defaultBet: 10
+  minBet: 1
+  maxBet: 100
+  reelCount: 3
+  visibleRows: 1
+  baseSpinDuration: 1.5
+  reelStopDelay: 0.3
+  reelScrollSpeed: 8
+  snapBounceDistance: 0.15
+  scatterCountForBonus: 3
+  freeSpinsAwarded: 10
